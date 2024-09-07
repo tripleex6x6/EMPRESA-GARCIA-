@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPRESA GARCÍA - Expertos en Productos de Acero y Lámina</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #fff; /* Fondo blanco */
+            color: #333; /* Texto negro */
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background-color: #f8f9fa; /* Blanco roto para el fondo */
+            color: #333; /* Negro para el texto del encabezado */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #e0e0e0; /* Línea sutil en gris claro */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #00695c; /* Verde menta pastel para el título */
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #00695c; /* Verde menta pastel para los enlaces */
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #004d40; /* Verde más oscuro al pasar el mouse */
+        }
+
+        /* Sección de presentación */
+        .hero {
+            background-color: #e0f2f1; /* Verde agua pastel */
+            color: #333;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        /* Sección de productos tipo catálogo */
+        #productos {
+            padding: 50px 20px;
+            background-color: #fff; /* Fondo blanco */
+            color: #333;
+            text-align: center;
+        }
+
+        #productos h2 {
+            font-size: 36px;
+            color: #00695c; /* Verde menta pastel para el título de productos */
+            margin-bottom: 40px;
+        }
+
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .producto {
+            background-color: #fafafa; /* Gris muy claro para las tarjetas */
+            padding: 10px;
+            width: 22%; /* Tamaño reducido */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .producto:hover {
+            transform: scale(1.05);
+        }
+
+        .producto h3 {
+            color: #00695c; /* Verde menta pastel para los títulos de productos */
+            margin-top: 10px;
+        }
+
+        .producto p {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* Sección sobre nosotros */
+        #nosotros {
+            background-color: #fff; /* Fondo blanco */
+            color: #333;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #nosotros h2 {
+            font-size: 36px;
+            color: #00695c; /* Verde menta pastel para el título de la sección */
+        }
+
+        #nosotros p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Sección de contacto */
+        #contacto {
+            padding: 50px 20px;
+            background-color: #fff; /* Fondo blanco */
+            color: #333;
+            text-align: center;
+        }
+
+        #contacto h2 {
+            font-size: 36px;
+            color: #00695c; /* Verde menta pastel para el título de la sección */
+        }
+
+        #contacto p {
+            font-size: 18px;
+        }
+
+        #contacto a {
+            color: #00695c; /* Verde menta pastel para los enlaces */
+            text-decoration: none;
+        }
+
+        #contacto a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f8f9fa; /* Blanco roto para el fondo */
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+            border-top: 2px solid #e0e0e0; /* Línea sutil en gris claro */
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>EMPRESA GARCÍA</h1>
+        <p>Innovación y Calidad en Productos de Acero</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <div class="hero">
+            <h2>Expertos en Lámina y Acero</h2>
+            <p>Fabricación de botes, tinas, comales, parrillas, asadores, estufas y más</p>
+        </div>
+    </section>
+
+    <!-- Sección de Productos tipo Catálogo -->
+    <section id="productos">
+        <h2>Nuestro Catálogo de Productos</h2>
+        <div class="catalogo">
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200" alt="Botes">
+                <h3>Botes</h3>
+                <p>Botes de acero de alta resistencia, ideales para almacenamiento y transporte.</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200" alt="Tinas">
+                <h3>Tinas</h3>
+                <p>Tinas robustas fabricadas en acero, perfectas para uso industrial y doméstico.</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200" alt="Comales">
+                <h3>Comales</h3>
+                <p>Comales de acero que garantizan una cocción uniforme y durabilidad excepcional.</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200" alt="Parrillas">
+                <h3>Parrillas</h3>
+                <p>Parrillas de alta calidad para asados, diseñadas para un uso eficiente y prolongado.</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200" alt="Asadores">
+                <h3>Asadores</h3>
+                <p>Asadores de acero resistentes, ideales para eventos al aire libre y cocción perfecta.</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200" alt="Estufas">
+                <h3>Estufas</h3>
+                <p>Estufas industriales y domésticas con diseños modernos y de alta eficiencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Nosotros -->
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>EMPRESA GARCÍA EMPRESA GARCÍA fue establecida por Aurelio García R. en Temoaya, y desde entonces ha evolucionado hasta convertirse en un líder en la fabricación de productos de acero. Con décadas de experiencia en el sector, nuestra empresa se destaca por su compromiso inquebrantable con la calidad y la satisfacción del cliente. Nos enorgullece ofrecer soluciones innovadoras y de alta precisión, consolidándonos como un referente en la industria del acero..</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para obtener más información o realizar pedidos personalizados, contáctanos:</p>
+        <p><strong>Teléfono:</strong> 7226276607</p>
+        <p><strong>Email:</strong> <a href="mailto:aurelio25garcia@gmail.com">aurelio25garcia@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EMPRESA GARCÍA. Todos los derechos reservados.</p>
+    </footer>
+
+</
+
